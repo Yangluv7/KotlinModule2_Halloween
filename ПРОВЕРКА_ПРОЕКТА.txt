@@ -1,0 +1,16 @@
+Проверка KotlinModule2 — 1 ноября 2026
+
+Сборки assembleDebug и assembleDebugAndroidTest завершены успешно.
+connectedDebugAndroidTest: 4 теста, 0 ошибок, 0 пропусков.
+Устройство: KotlinModule2_API35 / Pixel 5, Android 15 (API 35), ARM64.
+
+WaterTrackerTest:
+- addWaterButtonAdds250 — passed
+- finishDayResetsCounter — passed
+- daysCountIncreasesAndResets — passed
+ReportScreenshotsTest:
+- checkScreensAndSaveReportImages — passed
+
+Исправлен лишний import assertExists в UI-тесте; обновлён и отдельный файл задания 9. Добавлен отсутствовавший официальный Gradle Wrapper JAR. В Preview уточнены widthDp, heightDp и плотность, а круглый жёлтый фон задан через CircleShape для корректного экспорта. Логика приложения не менялась.
+
+Исходные XML и HTML результатов включены в папку результатов итогового архива.
